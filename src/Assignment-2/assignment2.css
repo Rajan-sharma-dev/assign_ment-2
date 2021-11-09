@@ -5,3 +5,150 @@
 width: 100%;
 height: 100%;
 }
+/* Our CSS file. */
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    width:100vw;
+    height:8vh;
+    background-color:#E6E6FA;
+   
+}
+.nav{
+    height: 5vh;
+    width: 98vw;
+}
+
+
+.logo{
+    color:#663399;
+    font-size:25px;
+    font-family:verdana;
+    text-align:left;
+    margin-top:0px;
+    float:left;
+    margin:0px;
+    line-height:50px;
+    padding-left:9px;
+}
+.img{
+    padding-top: 20px;
+    vertical-align: middle;
+
+}
+ .img img{
+    padding-top: 15px;
+    vertical-align: middle;
+    padding: 0px;
+    height: 35px;
+    width: 100px;
+}
+
+
+.form{
+    float:right;
+    display:inline-block;
+    line-height:52px;
+    padding-right:20px;
+}
+.nav{
+    border: 4px solid royalblue;
+    text-align: center ;
+    vertical-align: bottom;
+    margin: 4px;
+    
+
+}
+
+.nav ul li{
+    
+    display: inline-block;
+    margin: 15px 40px;
+    font-size: 25px;
+    
+}
+.nav ul li a{
+    color:black;
+    text-decoration: none;
+}
+.container1{
+    display: inline ;
+    width: 98vw;
+    height: 75vh;
+    
+}
+
+aside{
+    vertical-align: top;
+    display: inline-block;
+    background-color: hotpink;
+    height: 100vh;
+    
+}
+aside a{
+    margin: 50px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+.imagefolder{
+    vertical-align: top;
+    margin: 0;
+    width: 83vw;
+    height: 100vh;
+    border: red 2px solid;
+    display: inline-block;
+   
+}
+.imagefolder .p{
+    display: block;
+}
+footer{
+    margin-top: 5px;
+   
+    text-align: center;
+}
+.A{
+    padding: 25px 0px;
+    display: inline-block;
+}
+.A1{
+    display: inline-block;
+    margin: 0px 5px;
+}
+.A3{
+    display: inline-block;
+    margin:  0px 5px;
+}
+.A2{
+    display: inline-block;
+   
+}
+.A img{
+    
+    height: 400px;
+    width: 520px;
+    margin: 30px;
+}
+.middle{
+    vertical-align: bottom;
+    margin-top: 10px;
+    padding: 5px;
+}
+.form{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
